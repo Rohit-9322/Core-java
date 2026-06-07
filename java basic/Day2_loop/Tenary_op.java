@@ -1,4 +1,4 @@
-//package Day2_loop;
+package Day2_loop;
 
 public class Tenary_op {
     public static void main(String[] args) {
