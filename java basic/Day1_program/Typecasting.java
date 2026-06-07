@@ -1,4 +1,4 @@
-//package Day1_program;
+package Day1_program;
 
 public class Typecasting {
     public static void main(String[] args) {
@@ -20,6 +20,8 @@ public class Typecasting {
         float c = b;
 
         System.out.println(c);
+
+
 
 
 
