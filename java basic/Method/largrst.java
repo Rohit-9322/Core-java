@@ -4,6 +4,7 @@ package Method;
 
 public class largrst {
 
+     // using method 
     static int max(int a , int b){
     return (a>b)? a : b;
     }
