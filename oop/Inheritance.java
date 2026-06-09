@@ -38,10 +38,10 @@ class devede extends base{
 public class Inheritance {
     public static void main(String[] args) {
 
-        // base s1 = new base();
-        // s1.setx(12);
-        // s1.display();
-        // System.out.println(s1.getx());
+        base s1 = new base();
+        s1.setx(12);
+        s1.display();
+        System.out.println(s1.getx());
 
 
         devede s2 = new devede();
