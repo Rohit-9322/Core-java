@@ -1,4 +1,4 @@
-//package Day1_program;
+package Day1_program;
 
 public class Sum {
     
