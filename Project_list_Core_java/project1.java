@@ -7,7 +7,7 @@ import java.util.Scanner;
 // 1} write a rogram to create calculate persentage of a given student in CBSC bored exam ,
 //       His mark from 5 sub must be take input as from the regi.
 
-public class problem1 {
+public class project1 {
     public static void main(String[] args) {
         Scanner sc =  new Scanner(System.in);
         int Total_mark = 500;
@@ -33,7 +33,9 @@ public class problem1 {
 
         float persentage = ((Sumof_subject / Total_mark) * 100);
 
-        System.out.println("THe total Parsentage is " + persentage);
+        System.out.println("THe total Parsentage is --> " + persentage);
+
+        
 
 
     }
