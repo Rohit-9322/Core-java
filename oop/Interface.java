@@ -5,6 +5,7 @@ interface Bicycle{
     int a = 45; // That is final
     void applyBreak(int decrement);
     void speedup(int increment);
+     
 
 }
 
