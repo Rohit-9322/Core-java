@@ -1,4 +1,4 @@
-package Abstact_interfece_Exier;
+package Abstact_interfece_Exier.tv;
 
 //  Create aclass smarttv which implement tvremote interface from q6
 interface Tvremote{
