@@ -1,30 +1,31 @@
 package All_class_file;
 
-//  Using By Thread(Runnable r)
+// Using Thread(Runnable r, String name)
 
-class myThr extends Thread{
-    public myThr(Runnable r){
-        super(r);
-    }
-
+class S implements Runnable{
+    @Override
     public void run(){
-        int i =45;
-        System.out.println("Thank you");
-        // while (true) {
-        //    System.out.println("That Thread class ");
-        // }
+       for(int i=0; i<=5; i++ ){
+        System.out.println(Thread.currentThread().getName()+" : "+i);
+       }
     }
 }
 
 
 public class runnableThread {
     public static void main(String[] args) {
-        
-        myThr obj = new myThr();
-       Thread t1 = new Thread(obj);
 
-        System.out.println("The id of Thread class is "+ obj.getId());
-        System.out.println("The name of Thread is "+ obj.getName());
+        S obj = new S();
+
+        // Using Thread(Runnable r, String name)
+        Thread t1 = new Thread(obj, "Rohit");
+
+        t1.start();
+
+        // t1.join(); // wait until thread finishes // But is not run without try-catch
+        
+       System.out.println("Thread ID : " + t1.getId());
+       System.out.println("Thread Name : " + t1.getName());
     }
     
 }
