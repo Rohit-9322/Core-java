@@ -7,10 +7,7 @@ class A implements Runnable{
     @Override
    public void run(){
     int i = 0;
-    // while (i < 10) {
-    //     System.out.println(" That is Thread 1");
-    //     i++;
-    // }
+    System.out.println("Wel come ");
    }
 }
 
@@ -18,10 +15,7 @@ class B implements Runnable{
     @Override
    public void run(){
     int i = 0;
-    // while (i < 10) {
-    //     System.out.println(" That is Thread 2");
-    //     i++;
-    // }
+    System.out.println("That Enter to class B");
    }
 }
 public class runebleInterface {
