@@ -2,6 +2,8 @@ package all_class;
 
 import java.util.Scanner;
 
+// Handling Specific Exception 
+
 public class Handling_E {
 
     public static void main(String[] args) {
