@@ -2,6 +2,7 @@ package all_class;
 
 import java.util.*;
 
+// Nested try-catch in java 
 public class Nested_TC {
     public static void main(String[] args) {
         
@@ -15,7 +16,6 @@ public class Nested_TC {
         int ind = sc.nextInt();
 
         try {
-            System.out.println("Wel-come");
             try {
                 System.out.println(mark[ind]);
             } catch (ArrayIndexOutOfBoundsException e) {
