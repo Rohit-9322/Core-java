@@ -1,7 +1,7 @@
 package b_class;
 
+// Calender Class in Java 
 import java.util.*;
-import java.util.Calendar;
 
 public class calender1 {
     public static void main(String[] args) {
@@ -21,5 +21,17 @@ public class calender1 {
 
 
         System.out.println(c.get(Calendar.HOUR_OF_DAY)+":"+c.get(Calendar.MINUTE)+":"+c.get(Calendar.SECOND));
+
+        // GregorianCalendar :- 
+
+        GregorianCalendar cd = new GregorianCalendar();
+        System.out.println(cd.isLeapYear(2021));
+
+        // Time Zone :-- 
+
+        System.out.println(TimeZone.getAvailableIDs()[0]);
+        System.out.println(TimeZone.getAvailableIDs()[1]);
+        System.out.println(TimeZone.getAvailableIDs()[2]);
+        System.out.println(TimeZone.getAvailableIDs()[8]);
     }
 }
