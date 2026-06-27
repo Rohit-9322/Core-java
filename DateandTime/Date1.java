@@ -1,5 +1,6 @@
 package b_class;
 
+// how to now Date 
 import java.util.Date;
 
 public class Date1 {
